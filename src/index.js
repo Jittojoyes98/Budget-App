@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BudgetProvider} from './context/BudgetContext'
+import {BudgetProvider} from './context/BudgetContext';
 
 ReactDOM.render(
     <BudgetProvider>
-      <App />
+        <App />
     </BudgetProvider>,
-  document.getElementById('root')
+    document.getElementById('root')
 );
 

@@ -34,7 +34,7 @@ export default function AddBudgetModal({show,handleClose}) {
                     </Form.Group>
                 </Modal.Body>
                 <div className='d-flex justify-content-end m-3'>
-                    <Button variant='primary' type='submit'>Add Expense</Button>
+                    <Button variant='primary' type='submit'>Add Budget</Button>
                 </div>
             </Form>
         </Modal>

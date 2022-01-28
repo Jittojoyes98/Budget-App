@@ -1,10 +1,31 @@
-# Getting Started with Create React App
+# A Budgetory App to keep track of your finances
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project helps you in handling your budgets and their expenses.User can add and remove budgets and expenses.
+
+# About
+
+The project help you in keeping track of your finances.It make use of React CRUD operations to add,delete
+and view your expenses and budgets.React's state management and re-renderimg makes it easy to create the project.Some of the challenging part of the project was to implement the total and Uncategorized part.
+
+
+
+
+# Build with Create React App
+
+This project was made with [Create React App](https://github.com/facebook/create-react-app).
+
+
+# How to install locally
+
+First clone this repo and run `npm install`
+
+# Run the project 
+
+To run the project use `npm start`
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can enter the following to start running the project locally:
 
 ### `npm start`
 
@@ -14,10 +35,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,32 +56,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# How to use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## You can start the project by adding a budget or an expense.If no budget was created before the new expense will be added to the uncategorized budget,and this is the default budget.Similarly we can add expenses for each budget in their own fields.We can remove a budget or an expense just by viewing the expense and and thus removing them.If a budget is removed its expense is kept track in Uncategorized budget field.Total is used to keep track of all the expenses.Also note that if the expense exceed some value we change the color of the progress bar accordingly.If it exceeds the maximum value the budget field become red in background.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# License
 
-### Code Splitting
+## There are no licenses
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
